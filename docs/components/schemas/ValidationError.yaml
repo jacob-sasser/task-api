@@ -2,10 +2,7 @@ type: object
 properties:
   error:
     type: string
-    example: validation failed
   details:
     type: array
     items:
       type: string
-    example:
-      - Title is required
